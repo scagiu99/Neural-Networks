@@ -21,6 +21,7 @@ To install the required libraries, run:
 
 ```bash
 pip install kaggle tensorflow keras-tuner pandas numpy matplotlib
+```
 
 ## Usage
 
