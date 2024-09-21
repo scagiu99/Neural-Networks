@@ -21,3 +21,21 @@ To install the required libraries, run:
 
 ```bash
 pip install kaggle tensorflow keras-tuner pandas numpy matplotlib
+
+## Usage
+
+1. **Download the Dataset**:
+   - Ensure that your `kaggle.json` file is properly configured for the Kaggle API.
+   - Download the dataset using the following command:
+     ```bash
+     kaggle datasets download -d samuelcortinhas/muffin-vs-chihuahua-image-classification
+     ```
+   - Unzip the dataset and place it in the appropriate directory.
+
+2. **Running the Model**:
+   - Run the provided Jupyter Notebook to train and evaluate the models.
+   - The training results, including accuracy and loss curves, will be displayed.
+
+3. **Hyperparameter Tuning**:
+   - Use Keras Tuner to optimize the model's hyperparameters. Adjust the search space in the script as needed.
+
