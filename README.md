@@ -39,4 +39,9 @@ pip install kaggle tensorflow keras-tuner pandas numpy matplotlib
 
 3. **Hyperparameter Tuning**:
    - Use Keras Tuner to optimize the model's hyperparameters. Adjust the search space in the script as needed.
+  
+## Project Structure
+
+- `Neural_Network_Project.ipynb`: Contains the Jupyter notebooks for data exploration and model training.
+- `StatisticalMethods_Report.pdf`: Contains the Report with the description of the results
 
