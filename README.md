@@ -14,3 +14,10 @@ The projects described in this document refer to the [Muffin vs chihuahua](https
 - `pandas`
 - `numpy`
 - `matplotlib`
+
+### Installation
+
+To install the required libraries, run:
+
+```bash
+pip install kaggle tensorflow keras-tuner pandas numpy matplotlib
